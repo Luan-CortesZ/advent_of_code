@@ -1,5 +1,5 @@
 const fs = require('fs');
-const fileContent = fs.readFileSync('input.txt', 'utf8').split('\n');
+const fileContent = fs.readFileSync('./2024/01/input.txt', 'utf8').split('\n');
 
 const leftNumbers = []; 
 const rightNumbers = [];
